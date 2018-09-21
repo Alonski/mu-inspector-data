@@ -22,7 +22,10 @@ merge(moduleConfig.types, {
   'util:intl': { definitiveCollection: 'utils' },
   // ember-gestures
   'ember-gesture': { definitiveCollection: 'main' },
-  mixin: { definitiveCollection: 'main' }
+  mixin: { definitiveCollection: 'main' },
+  "data-adapter": { definitiveCollection:'adapter' },
+  "container-debug-adapter": { definitiveCollection:'adapter' },
+  "resolver-for-debugging": { definitiveCollection:'main' }
 });
 
 moduleConfig.collections.main.types.push('config');
